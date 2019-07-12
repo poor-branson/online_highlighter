@@ -15,6 +15,9 @@ module.exports = {
     publicPath: '/',
     path: resolve(__dirname, "../dist")
   },
+  externals: {
+    hljs: 'highlight.js'
+  },
   resolve: {
     alias: {
       "@": resolve(__dirname, "../source")

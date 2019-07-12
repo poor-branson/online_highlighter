@@ -15,6 +15,7 @@
     "@babel/preset-env": "^7.5.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
     "file-loader": "^4.0.0",
     "html-webpack-plugin": "^4.0.0-beta.3",
     "mkdirp": "^0.5.1",

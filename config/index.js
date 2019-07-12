@@ -11,8 +11,8 @@ const hlThemes = copyHLStyle(resolve(__dirname, '../dist/hl-style'));
 
 const useConfig = merge(base, {
   mode: 'production',
-  externals: {
-    'highlight.js': 'highlight.js'
+  output: {
+    publicPath: '/highlighter/'
   },
   plugins: [
     new webpack.DefinePlugin({

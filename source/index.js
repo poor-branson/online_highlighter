@@ -20,7 +20,7 @@ function swapStyle(name) {
 
 function render() {
   const code = document.querySelector('textarea').value;
-  document.querySelector('.code').innerHTML = code;
+  document.querySelector('.code').innerText = code;
   hljs.highlightBlock(document.querySelector('.code'));
 }
 
