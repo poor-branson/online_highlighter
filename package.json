@@ -1,0 +1,35 @@
+{
+  "name": "online-highlighter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node config/dev",
+    "build": "node config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.3",
+    "mkdirp": "^0.5.1",
+    "postcss": "^7.0.17",
+    "postcss-import": "^12.0.1",
+    "rimraf": "^2.6.3",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-fix-style-only-entries": "^0.3.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "debounce": "^1.2.0",
+    "highlight.js": "^9.15.8"
+  }
+}
